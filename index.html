@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var lang = (navigator.language || "").slice(0, 2).toLowerCase();
+        var supported = ["en","it"];
+        var locale = supported.indexOf(lang) !== -1 ? lang : "en";
+        window.location.replace("/" + locale + "/");
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0;url=/en/" />
+    <title>Redirecting…</title>
+  </head>
+  <body></body>
+</html>
