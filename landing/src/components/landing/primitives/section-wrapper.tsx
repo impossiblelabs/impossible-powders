@@ -15,7 +15,12 @@ interface SectionWrapperProps {
   id?: string;
 }
 
-export function SectionWrapper({ children, bg = "white", className, id }: SectionWrapperProps) {
+export function SectionWrapper({
+  children,
+  bg = "white",
+  className,
+  id,
+}: SectionWrapperProps) {
   return (
     <section id={id} className={cn(bgClasses[bg], className)}>
       {children}

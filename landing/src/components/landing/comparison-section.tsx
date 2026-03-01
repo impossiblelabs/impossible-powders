@@ -27,7 +27,10 @@ function ComparisonTable() {
               Impossible Powders
             </TableHead>
             {COMPETITORS.map((c) => (
-              <TableHead key={c} className="p-4 text-[0.68rem] font-bold uppercase tracking-[0.08em] text-center border-b-2 border-brand-mid text-brand-muted whitespace-nowrap">
+              <TableHead
+                key={c}
+                className="p-4 text-[0.68rem] font-bold uppercase tracking-[0.08em] text-center border-b-2 border-brand-mid text-brand-muted whitespace-nowrap"
+              >
                 {c}
               </TableHead>
             ))}
@@ -35,7 +38,10 @@ function ComparisonTable() {
         </TableHeader>
         <TableBody>
           {COMPARISON_ROWS.map((row) => (
-            <TableRow key={row.key} className="border-b-0 hover:bg-transparent [&_td]:hover:bg-white/50">
+            <TableRow
+              key={row.key}
+              className="border-b-0 hover:bg-transparent [&_td]:hover:bg-white/50"
+            >
               <TableCell className="text-left font-bold text-brand-dark text-[0.72rem] uppercase tracking-[0.06em] py-3.5 px-4 border-b border-brand-mid whitespace-nowrap max-sm:sticky max-sm:left-0 max-sm:bg-brand-light max-sm:z-1">
                 {t(`comparison.${row.key}`)}
               </TableCell>
@@ -82,10 +88,19 @@ export function ComparisonSection() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper bg="light" className="py-22 px-10 max-tablet:py-16 max-tablet:px-6 max-sm:py-14 max-sm:px-0" id="compare">
+    <SectionWrapper
+      bg="light"
+      className="py-22 px-10 max-tablet:py-16 max-tablet:px-6 max-sm:py-14 max-sm:px-0"
+      id="compare"
+    >
       <SectionInner maxWidth={860}>
         <Reveal>
-          <Heading size="lg" color="dark" align="center" className="max-sm:text-[1.6rem] max-sm:px-5">
+          <Heading
+            size="lg"
+            color="dark"
+            align="center"
+            className="max-sm:text-[1.6rem] max-sm:px-5"
+          >
             {t("comparison.heading")}
           </Heading>
         </Reveal>

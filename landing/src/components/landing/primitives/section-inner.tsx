@@ -15,9 +15,19 @@ interface SectionInnerProps {
   maxWidth?: keyof typeof maxWidthClasses;
 }
 
-export function SectionInner({ children, className, maxWidth = 960 }: SectionInnerProps) {
+export function SectionInner({
+  children,
+  className,
+  maxWidth = 960,
+}: SectionInnerProps) {
   return (
-    <div className={cn("mx-auto relative z-1", maxWidthClasses[maxWidth], className)}>
+    <div
+      className={cn(
+        "mx-auto relative z-1",
+        maxWidthClasses[maxWidth],
+        className,
+      )}
+    >
       {children}
     </div>
   );

@@ -27,7 +27,13 @@ interface HeadingProps {
   className?: string;
 }
 
-export function Heading({ children, size = "lg", color = "dark", align = "left", className }: HeadingProps) {
+export function Heading({
+  children,
+  size = "lg",
+  color = "dark",
+  align = "left",
+  className,
+}: HeadingProps) {
   return (
     <h2
       className={cn(

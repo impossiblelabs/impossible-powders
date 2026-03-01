@@ -19,18 +19,30 @@ export function SocialProofSection() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper bg="dark" className="py-16 px-10 relative max-sm:py-12 max-sm:px-5" id="social-proof">
+    <SectionWrapper
+      bg="dark"
+      className="py-16 px-10 relative max-sm:py-12 max-sm:px-5"
+      id="social-proof"
+    >
       <NoiseOverlay />
       <SectionInner maxWidth={860}>
         <Reveal>
-          <Heading size="md" color="light" align="center" className="max-sm:text-[1.3rem]">
+          <Heading
+            size="md"
+            color="light"
+            align="center"
+            className="max-sm:text-[1.3rem]"
+          >
             {t("socialProof.heading")}
           </Heading>
         </Reveal>
         <Reveal delay={0.08}>
           <div className="grid grid-cols-3 gap-2.5 mt-10 max-sm:grid-cols-1 max-sm:gap-2">
             {[0, 1, 2].map((i) => (
-              <SocialCard key={i} placeholder={t("socialProof.feedPlaceholder")} />
+              <SocialCard
+                key={i}
+                placeholder={t("socialProof.feedPlaceholder")}
+              />
             ))}
           </div>
         </Reveal>

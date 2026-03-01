@@ -96,6 +96,11 @@
     "legal": "Legale",
     "privacy": "Privacy Policy",
     "terms": "Termini di Servizio",
-    "social": "Seguici"
+    "social": "Seguici",
+    "newsletter": "Resta aggiornato",
+    "newsletterSub": "Avvisi, sconti e consigli — niente spam.",
+    "emailPlaceholder": "La tua email",
+    "emailButton": "Iscriviti",
+    "emailSuccess": "Iscritto!"
   }
 }

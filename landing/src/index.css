@@ -45,9 +45,9 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   /* Brand colors */
-  --color-brand-dark: #1E1E1E;
-  --color-brand-light: #E9E7E2;
-  --color-brand-mid: #DFDDD9;
+  --color-brand-dark: #1e1e1e;
+  --color-brand-light: #e9e7e2;
+  --color-brand-mid: #dfddd9;
   --color-brand-muted: #585856;
   --color-brand-white: #ffffff;
 
@@ -171,7 +171,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: #1E1E1E;
+  background: #1e1e1e;
 }
 
 /* Mobile mask gradient for comparison table scroll */

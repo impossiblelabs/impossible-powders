@@ -25,7 +25,15 @@ export function Nav() {
             className="hidden max-sm:block bg-transparent border-none cursor-pointer p-1 text-brand-light"
             aria-label={t("nav.menu")}
           >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.6"
+              strokeLinecap="round"
+            >
               <line x1="3" y1="5.5" x2="17" y2="5.5" />
               <line x1="3" y1="10" x2="17" y2="10" />
               <line x1="3" y1="14.5" x2="17" y2="14.5" />
@@ -68,7 +76,9 @@ export function Nav() {
 
       {/* Logo */}
       <div className="group font-logo text-xl text-brand-light no-underline tracking-[0.1em] max-sm:text-[0.85rem]">
-        <span className="px-2 py-1 -mx-1 rounded bg-[#E9E7E2] text-[#1E1E1E]">impossible</span>{" "}
+        <span className="px-2 py-1 -mx-1 rounded bg-[#E9E7E2] text-[#1E1E1E]">
+          impossible
+        </span>{" "}
         <span className="ml-1">powders</span>
       </div>
 

@@ -24,7 +24,10 @@ export function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper bg="dark" className="py-20 px-10 relative overflow-hidden max-tablet:py-16 max-tablet:px-6 max-sm:py-12 max-sm:px-5">
+    <SectionWrapper
+      bg="dark"
+      className="py-20 px-10 relative overflow-hidden max-tablet:py-16 max-tablet:px-6 max-sm:py-12 max-sm:px-5"
+    >
       <NoiseOverlay />
       <SectionInner className="grid grid-cols-[1.1fr_1.5fr] gap-12 items-center max-tablet:gap-8 max-sm:grid-cols-1 max-sm:gap-6">
         <div className="max-sm:text-center">
@@ -34,7 +37,11 @@ export function HeroSection() {
             </span>
           </Reveal>
           <Reveal delay={0.08}>
-            <Heading size="hero" color="light" className="max-tablet:text-[2.5rem] max-sm:text-[2rem] max-[380px]:text-[1.7rem]">
+            <Heading
+              size="hero"
+              color="light"
+              className="max-tablet:text-[2.5rem] max-sm:text-[2rem] max-[380px]:text-[1.7rem]"
+            >
               {t("hero.heading")}
             </Heading>
           </Reveal>
@@ -52,7 +59,10 @@ export function HeroSection() {
             </a>
           </Reveal>
         </div>
-        <Reveal delay={0.16} className="grid grid-cols-4 gap-px bg-brand-light/8 rounded-md overflow-hidden max-sm:grid-cols-2">
+        <Reveal
+          delay={0.16}
+          className="grid grid-cols-4 gap-px bg-brand-light/8 rounded-md overflow-hidden max-sm:grid-cols-2"
+        >
           {STATS.map((s: StatItem) => (
             <StatCard key={s.key} value={s.value} label={t(`stats.${s.key}`)} />
           ))}

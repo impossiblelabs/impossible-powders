@@ -4,7 +4,15 @@ import { Reveal } from "./primitives/reveal";
 import { SectionWrapper } from "./primitives/section-wrapper";
 import { SectionInner } from "./primitives/section-inner";
 
-function CalloutCard({ title, desc, delay = 0 }: { title: string; desc: string; delay?: number }) {
+function CalloutCard({
+  title,
+  desc,
+  delay = 0,
+}: {
+  title: string;
+  desc: string;
+  delay?: number;
+}) {
   return (
     <Reveal
       delay={delay}
@@ -24,7 +32,11 @@ export function ShowcaseSection() {
   const { t } = useTranslation();
 
   return (
-    <SectionWrapper bg="white" className="py-22 px-10 max-tablet:py-16 max-tablet:px-6 max-sm:py-14 max-sm:px-5" id="formula">
+    <SectionWrapper
+      bg="white"
+      className="py-22 px-10 max-tablet:py-16 max-tablet:px-6 max-sm:py-14 max-sm:px-5"
+      id="formula"
+    >
       <SectionInner maxWidth={760}>
         <div className="grid grid-cols-3 gap-6 max-sm:grid-cols-1 max-sm:gap-0">
           {CALLOUT_KEYS.map((key, i) => (
@@ -39,7 +51,10 @@ export function ShowcaseSection() {
         <Reveal delay={0.16}>
           <div className="flex justify-around px-[6%] max-sm:hidden">
             {[0, 1, 2].map((i) => (
-              <div key={i} className="w-px h-12 bg-gradient-to-b from-brand-mid to-transparent" />
+              <div
+                key={i}
+                className="w-px h-12 bg-gradient-to-b from-brand-mid to-transparent"
+              />
             ))}
           </div>
         </Reveal>
