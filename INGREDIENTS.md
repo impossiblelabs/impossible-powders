@@ -12,3 +12,7 @@
 | Erythritol                         | 2,000 mg |
 | Flavoring (maltodextrin-based)     | 800 mg   |
 | **Total**                          | **7,468 mg** |
+
+## Maybe
+* Calcium citrate
+* Copper bisglycinate
