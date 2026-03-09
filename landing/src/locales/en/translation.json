@@ -10,10 +10,10 @@
   },
 
   "hero": {
-    "badge": "Electrolyte Powder for Lifters",
-    "heading": "Every electrolyte mix is built for runners. This one's built for the weight room.",
-    "subtext": "5 electrolytes. 1g taurine. 120mg magnesium. 0g sugar. Dosed for resistance training — not marathon sweat.",
-    "cta": "See why it's different ↓"
+    "badge": "Hydration Rebuilt for Lifters",
+    "heading": "Most electrolytes are made just for endurance. Ours is made for strength.",
+    "subtext": "Zero sugar. 5 electrolytes. 1g taurine and 120mg magnesium in a formula built for performance under load — not marathon sweat loss.",
+    "cta": "See what makes it different ↓"
   },
 
   "stats": {
@@ -24,13 +24,13 @@
   },
 
   "reframe": {
-    "heading": "Your training is different. Your hydration should be too.",
-    "subtext": "Most electrolyte mixes are built for one type of athlete. Here's the problem with that.",
+    "heading": "Most hydration products are built for cardio. That’s the problem.",
+    "subtext": "Long-duration endurance training and heavy resistance training do not place the same demands on the body. Your formula should reflect that.",
     "enduranceLabel": "Built for endurance",
-    "enduranceBody": "<strong>500–1,000mg sodium.</strong> <strong>11–21g sugar.</strong> <strong>0mg magnesium.</strong> Designed to replace what you sweat out over hours of cardio. Great for a marathon. Wrong for a heavy squat session.",
+    "enduranceBody": "<strong>500–1,000mg sodium.</strong> <strong>11–21g sugar.</strong> <strong>0mg magnesium.</strong> Built to replace large sweat losses over long cardio sessions. Great for a marathon. Overbuilt and misaligned for the weight room.",
     "strengthLabel": "Built for strength",
-    "strengthBody": "<strong>234mg sodium.</strong> <strong>0g sugar.</strong> <strong>120mg magnesium</strong> for force output. <strong>10mg zinc</strong> for recovery. <strong>1g taurine</strong> for muscle performance. Every ingredient dosed for what actually happens in the weight room.",
-    "closing": "Resistance training demands a different formula. This is it."
+    "strengthBody": "<strong>234mg sodium.</strong> <strong>0g sugar.</strong> <strong>120mg magnesium</strong> for muscle function. <strong>10mg zinc</strong> for recovery. <strong>1g taurine</strong> for performance under load. A cleaner formula for what actually happens when you lift.",
+    "closing": "Strength training demands a different formula. Impossible Powders is built for it."
   },
 
   "elements": {
@@ -44,15 +44,15 @@
   "callouts": {
     "magnesium": {
       "title": "Magnesium",
-      "desc": "The mineral behind every muscle contraction. Supports force output, energy production, and recovery. 120mg per serving — 32% of your daily value."
+      "desc": "Supports normal muscle function, energy metabolism, and recovery. 120mg per serving — 32% of your daily value."
     },
     "zinc": {
       "title": "Zinc",
-      "desc": "Drives protein synthesis and supports testosterone levels. 10mg per serving — 100% of your daily value."
+      "desc": "Supports protein synthesis and contributes to normal testosterone levels. 10mg per serving — 100% of your daily value."
     },
     "taurine": {
       "title": "Taurine",
-      "desc": "The most abundant amino acid in skeletal muscle. 1,000mg to support contractile force, reduce oxidative stress, and delay fatigue during high-intensity sets."
+      "desc": "1,000mg to support performance, help reduce oxidative stress, and delay fatigue during high-intensity training."
     }
   },
 
@@ -61,11 +61,11 @@
   },
 
   "science": {
-    "heading": "Backed by research, not marketing",
-    "body": "Every ingredient at a dose that matters. Every health claim authorised by the European Food Safety Authority. The complete formula validated by independent university research.",
+    "heading": "Backed by research, not sports drink marketing",
+    "body": "Every ingredient is here for a reason. Every meaningful claim is aligned with authorised European standards. The complete formula has also been reviewed through independent university validation.",
     "points": [
       "EFSA-authorised health claims on magnesium, zinc, and potassium",
-      "All minerals within EU Tolerable Upper Intake Levels — safe even at 2 servings per day",
+      "All minerals kept within EU Tolerable Upper Intake Levels — safe even at 2 servings per day",
       "Independent university validation of the complete formula"
     ],
     "learnMore": "Read the Science",
@@ -93,8 +93,8 @@
   },
 
   "cta": {
-    "heading": "Train harder.",
-    "headingHighlight": "Recover smarter.",
+    "heading": "Train hard.",
+    "headingHighlight": "Hydrate for it.",
     "button": "Shop Now"
   },
 
@@ -109,7 +109,7 @@
     "terms": "Terms of Service",
     "social": "Follow Us",
     "newsletter": "Stay in the loop",
-    "newsletterSub": "Alerts, discounts, and training tips — no spam.",
+    "newsletterSub": "Product drops, offers, and training insights — no spam.",
     "emailPlaceholder": "Your email",
     "emailButton": "Subscribe",
     "emailSuccess": "You're in!"
