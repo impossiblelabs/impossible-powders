@@ -9,10 +9,10 @@
     "shopButton": "Acquista"
   },
   "hero": {
-    "badge": "Polvere Elettrolitica",
-    "heading": "L'integratore elettrolitico per l'allenamento della forza",
-    "subtext": "Finalmente, una formula pensata per la palestra — non per la maratona.",
-    "cta": "Scopri perché è diverso"
+    "badge": "Non allenarti a secco",
+    "heading": "Un calo del 2% di idratazione riduce la forza fino al 20%.",
+    "subtext": "I muscoli sono composti per il 75% di acqua. Gli elettroliti trasmettono il segnale dal cervello al muscolo. Salta l'idratazione durante la sessione e non sei solo assetato — sei più debole, più lento e perdi i tuoi progressi.",
+    "cta": "Scopri cosa ti stai perdendo"
   },
   "stats": {
     "sugar": "Zucchero",
@@ -83,8 +83,8 @@
     "feedPlaceholder": "Feed Social"
   },
   "cta": {
-    "heading": "Pronto ad allenarti",
-    "headingHighlight": "meglio?",
+    "heading": "Smetti di perdere ripetizioni per disidratazione.",
+    "headingHighlight": "Idratati durante la sessione.",
     "button": "Acquista ora"
   },
   "footer": {

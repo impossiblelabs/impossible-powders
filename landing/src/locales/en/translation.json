@@ -10,10 +10,10 @@
   },
 
   "hero": {
-    "badge": "Hydration Rebuilt for Lifters",
-    "heading": "Most electrolytes are made just for endurance. Ours is made for strength.",
-    "subtext": "Zero sugar. 5 electrolytes. 1g taurine and 120mg magnesium in a formula built for performance under load — not marathon sweat loss.",
-    "cta": "See what makes it different ↓"
+    "badge": "Don't Train Dry",
+    "heading": "A 2% drop in hydration cuts your strength by up to 20%.",
+    "subtext": "Muscles are 75% water. Electrolytes carry the signal from brain to muscle. Skip hydration mid-session and you're not just thirsty — you're weaker, slower, and leaving gains on the floor.",
+    "cta": "See what you're missing ↓"
   },
 
   "stats": {
@@ -93,8 +93,8 @@
   },
 
   "cta": {
-    "heading": "Train hard.",
-    "headingHighlight": "Hydrate for it.",
+    "heading": "Stop losing reps to dehydration.",
+    "headingHighlight": "Hydrate mid-session.",
     "button": "Shop Now"
   },
 
