@@ -11,16 +11,22 @@ export function CTASection() {
   return (
     <SectionWrapper
       bg="white"
-      className="py-20 px-10 border-t border-brand-mid max-sm:py-14 max-sm:px-5"
+      className="relative overflow-hidden py-20 px-10 border-t border-brand-mid max-sm:py-14 max-sm:px-5"
     >
+      <div
+        className="absolute inset-0 bg-cover bg-center blur-xs scale-105"
+        style={{ backgroundImage: "url('/images/background.png')" }}
+        aria-hidden="true"
+      />
+      <div className="absolute inset-0 bg-white/60" aria-hidden="true" />
       <SectionInner>
-        <div className="text-center">
+        <div className="relative text-center">
           <Reveal>
             <Heading
               size="xl"
               color="dark"
               align="center"
-              className="max-sm:text-[1.6rem]"
+              className="max-sm:text-[1.6rem] drop-shadow-sm"
             >
               {t("cta.heading")}{" "}
               <span className="px-2 py-1 rounded bg-[#E9E7E2] text-[#1E1E1E]">
@@ -28,7 +34,12 @@ export function CTASection() {
               </span>
             </Heading>
           </Reveal>
-          <Reveal delay={0.08}>
+          <Reveal delay={0.06}>
+            <p className="mt-4 text-[0.88rem] text-brand-muted">
+              {t("cta.subtext")}
+            </p>
+          </Reveal>
+          <Reveal delay={0.12}>
             <div className="mt-7">
               <Button
                 variant="brand-primary"

@@ -13,7 +13,6 @@ export function Nav() {
   const navLinks = [
     { label: t("nav.learn"), href: "#compare" },
     { label: t("nav.offer"), href: "#science" },
-    { label: t("nav.account"), href: "#social-proof" },
   ];
 
   return (

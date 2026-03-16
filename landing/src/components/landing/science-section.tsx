@@ -13,8 +13,13 @@ export function ScienceSection() {
       className="grid grid-cols-2 min-h-[440px] max-sm:grid-cols-1"
       id="science"
     >
-      <div className="bg-brand-mid flex items-center justify-center text-[0.7rem] text-brand-muted font-medium tracking-[0.1em] uppercase max-sm:min-h-[200px] max-sm:order-0">
-        {t("science.imagePlaceholder")}
+      <div className="bg-brand-mid flex items-center justify-center text-[0.7rem] text-brand-muted font-medium tracking-[0.1em] uppercase max-sm:min-h-[200px] max-sm:order-0 overflow-hidden">
+        <img
+          src="/images/science.png"
+          width={1000}
+          height={1000}
+          alt={t("science.heading")}
+        />
       </div>
       <div className="bg-brand-dark text-brand-light p-[4.5rem] relative flex flex-col justify-center max-tablet:p-10 max-sm:p-5 max-sm:order-1">
         <NoiseOverlay />

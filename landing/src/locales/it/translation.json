@@ -3,7 +3,6 @@
     "shop": "Acquista",
     "learn": "Confronta",
     "offer": "La Scienza",
-    "account": "Testimonial",
     "logoText": "impossible powders",
     "menu": "Menu",
     "shopButton": "Acquista"
@@ -11,47 +10,35 @@
   "hero": {
     "badge": "Polvere Elettrolitica",
     "heading": "L'integratore elettrolitico per l'allenamento della forza",
-    "subtext": "Finalmente, una formula pensata per la palestra — non per la maratona.",
+    "subtext": "Recupera più velocemente, meno crampi, allenati più duramente. Pensato per la palestra — non per la maratona.",
     "cta": "Scopri perché è diverso"
   },
   "stats": {
     "sugar": "Zucchero",
     "sodium": "Sodio",
     "magnesium": "Magnesio",
-    "electrolytes": "Elettroliti"
+    "electrolytes": "Elettroliti",
+    "taurine": "Taurina"
   },
   "reframe": {
-    "heading": "Non tutti gli allenamenti sono uguali",
-    "subtext": "Perché ogni mix elettrolitico è uguale?",
-    "enduranceLabel": "Pensato per la resistenza",
-    "enduranceBody": "<strong>500–1.000mg di sodio.</strong> <strong>11–21g di zucchero.</strong> <strong>0mg di magnesio.</strong> La maggior parte dei mix è pensata per ore di cardio — non per quello che succede in sala pesi.",
-    "strengthLabel": "Pensato per la forza",
-    "strengthBody": "<strong>234mg di sodio.</strong> <strong>0 zucchero.</strong> <strong>120mg di magnesio</strong> per la produzione di forza. <strong>10mg di zinco</strong> per il recupero. <strong>1g di taurina</strong> per la performance muscolare. Dosato per l'allenamento con i pesi.",
-    "closing": "Dosato per quello che l'allenamento con i pesi richiede davvero."
+    "heading": "Ogni ingrediente ha un motivo",
+    "subtext": "Magnesio per la funzione muscolare. Zinco per il recupero. Potassio per i crampi. Taurina per la performance. Tocca un elemento per scoprire perché è nella formula."
   },
   "elements": {
     "Na": "Sodio",
     "K": "Potassio",
     "Cl": "Cloruro",
     "Mg": "Magnesio",
-    "Zn": "Zinco"
-  },
-  "callouts": {
-    "magnesium": {
-      "title": "Magnesio",
-      "desc": "Supporta la produzione di forza e di energia. 32% del valore giornaliero."
-    },
-    "zinc": {
-      "title": "Zinco",
-      "desc": "Supporta il recupero e la sintesi proteica. 100% del valore giornaliero."
-    },
-    "taurine": {
-      "title": "Taurina",
-      "desc": "1.000mg per supportare la performance muscolare durante l'allenamento."
+    "Zn": "Zinco",
+    "Tau": "Taurina",
+    "why": {
+      "Na": "234mg di sodio per reintegrare quello che perdi in un allenamento di forza — senza gli eccessi delle formule per la resistenza.",
+      "K": "300mg di potassio (15% VNR) lavora insieme al sodio per regolare l'equilibrio dei fluidi e supportare la normale funzione muscolare.",
+      "Cl": "91mg di cloruro si combina con sodio e potassio per mantenere il corretto equilibrio dei fluidi e supportare la digestione.",
+      "Mg": "120mg di magnesio (32% VNR) supporta la normale funzione muscolare, il metabolismo energetico e il recupero. La maggior parte dei prodotti per l'idratazione non ne contiene.",
+      "Zn": "10mg di zinco (100% VNR) supporta la normale sintesi proteica, la funzione immunitaria e contribuisce al mantenimento di normali livelli di testosterone.",
+      "Tau": "1.000mg di taurina — un amminoacido condizionatamente essenziale in dose rilevante per la ricerca. Inclusa per il suo ruolo nell'idratazione cellulare muscolare e nella performance sotto carico. Nota: nessun claim salutistico UE è attualmente autorizzato per la taurina."
     }
-  },
-  "showcase": {
-    "productImageAlt": "Immagine Bustina Prodotto"
   },
   "science": {
     "heading": "Supportato dalla ricerca, non dal marketing",
@@ -73,19 +60,25 @@
     "endurance": "Resistenza",
     "swipeHint": "Scorri per confrontare",
     "sodium": "Sodio",
+    "potassium": "Potassio",
     "magnesium": "Magnesio",
     "zinc": "Zinco",
     "taurine": "Taurina",
     "sugar": "Zucchero"
   },
-  "socialProof": {
-    "heading": "Cosa dicono i nostri atleti",
-    "feedPlaceholder": "Feed Social"
+  "product": {
+    "heading": "Cosa c'è nella confezione",
+    "serving": "7,5g per bustina — sciogliere in 500ml d'acqua",
+    "calories": "Meno di 2 kcal per porzione",
+    "osmolality": "Ipotonico (~135 mOsm/kg) per un assorbimento rapido",
+    "taste": "Aspro, pulito e rinfrescante — niente dolcezza artificiale",
+    "usage": "1–2 porzioni al giorno, prima o durante l'allenamento"
   },
   "cta": {
     "heading": "Pronto ad allenarti",
     "headingHighlight": "meglio?",
-    "button": "Acquista ora"
+    "subtext": "Zero zucchero. 5 elettroliti. 1g di taurina. Una bustina, 500ml d'acqua, fatto.",
+    "button": "Prova la tua prima confezione"
   },
   "footer": {
     "product": "Prodotto",

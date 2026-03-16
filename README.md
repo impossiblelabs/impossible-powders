@@ -7,6 +7,9 @@
 > Most electrolyte mixes are built for long cardio sessions, heavy on sodium and sugar.<br/>
 If you lift weights at the gym, that formula doesn't match what your body actually needs.
 
+<img src="./landing/public/images/product.png" />
+
+
 Impossible Powders is a line of purpose-built supplements.  
 Each formula is designed for a specific use case, not a one-size-fits-all multivitamin in disguise.  
 **Impossible Strength** is the first product: an electrolyte mix optimised for resistance training / gym goers.

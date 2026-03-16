@@ -6,13 +6,11 @@ export interface StatItem {
 export const STATS: StatItem[] = [
   { value: "0g", key: "sugar" },
   { value: "234mg", key: "sodium" },
-  { value: "120mg", key: "magnesium" },
   { value: "5", key: "electrolytes" },
+  { value: "1g", key: "taurine" },
 ];
 
-export const ELEMENT_SYMBOLS = ["Na", "K", "Cl", "Mg", "Zn"] as const;
-
-export const CALLOUT_KEYS = ["magnesium", "zinc", "taurine"] as const;
+export const ELEMENT_SYMBOLS = ["Na", "K", "Cl", "Mg", "Zn", "Tau"] as const;
 
 export interface ComparisonRow {
   key: string;
@@ -22,6 +20,7 @@ export interface ComparisonRow {
 
 export const COMPARISON_ROWS: ComparisonRow[] = [
   { key: "sodium", ours: "234mg", values: ["1,000mg", "500mg", "150mg"] },
+  { key: "potassium", ours: "300mg", values: ["200mg", "380mg", "45mg"] },
   { key: "magnesium", ours: "120mg", values: ["60mg", "0mg", "0mg"] },
   { key: "zinc", ours: "10mg", values: ["0mg", "0mg", "0mg"] },
   { key: "taurine", ours: "1,000mg", values: ["0mg", "0mg", "0mg"] },

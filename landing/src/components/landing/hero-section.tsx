@@ -9,7 +9,7 @@ import { NoiseOverlay } from "./primitives/noise-overlay";
 
 function StatCard({ value, label }: { value: string; label: string }) {
   return (
-    <div className="py-6 px-2 text-center bg-[rgba(30,30,30,0.95)] flex flex-col items-center transition-colors duration-300 hover:bg-[rgba(50,50,50,0.95)]">
+    <div className="py-4 px-2 text-center bg-[rgba(30,30,30,0.95)] flex flex-col items-center transition-colors duration-300 hover:bg-[rgba(50,50,50,0.95)]">
       <span className="font-display text-[2.2rem] text-brand-light leading-none tracking-[0.02em] max-[380px]:text-2xl">
         {value}
       </span>
@@ -29,8 +29,8 @@ export function HeroSection() {
       className="py-20 px-10 relative overflow-hidden max-tablet:py-16 max-tablet:px-6 max-sm:py-12 max-sm:px-5"
     >
       <NoiseOverlay />
-      <SectionInner className="grid grid-cols-[1.1fr_1.5fr] gap-12 items-center max-tablet:gap-8 max-sm:grid-cols-1 max-sm:gap-6">
-        <div className="max-sm:text-center">
+      <SectionInner className="grid grid-cols-[1.1fr_1.5fr] gap-12 items-stretch max-tablet:gap-8 max-sm:grid-cols-1 max-sm:gap-6">
+        <div className="max-sm:text-center flex flex-col justify-center">
           <Reveal>
             <span className="text-[0.68rem] font-semibold tracking-[0.18em] uppercase text-brand-muted mb-3 block max-sm:mb-2">
               {t("hero.badge")}
@@ -61,11 +61,22 @@ export function HeroSection() {
         </div>
         <Reveal
           delay={0.16}
-          className="grid grid-cols-4 gap-px bg-brand-light/8 rounded-md overflow-hidden max-sm:grid-cols-2"
+          className="relative flex flex-col justify-end self-stretch"
         >
-          {STATS.map((s: StatItem) => (
-            <StatCard key={s.key} value={s.value} label={t(`stats.${s.key}`)} />
-          ))}
+          <img
+            src="/images/product.png"
+            alt={t("hero.heading")}
+            className="absolute inset-0 w-full h-full object-contain rounded-md"
+          />
+          <div className="relative grid grid-cols-4 gap-px rounded-b-md overflow-hidden max-sm:grid-cols-2 mt-auto">
+            {STATS.map((s: StatItem) => (
+              <StatCard
+                key={s.key}
+                value={s.value}
+                label={t(`stats.${s.key}`)}
+              />
+            ))}
+          </div>
         </Reveal>
       </SectionInner>
     </SectionWrapper>
