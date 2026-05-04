@@ -53,7 +53,7 @@ export function ScienceSection() {
               asChild
               className="max-sm:w-full max-sm:text-center"
             >
-              <a href="#">{t("science.learnMore")}</a>
+              <a href="https://github.com/impossiblelabs/impossible-powders/blob/5ae5547f7405e5bf34cad785af4c4716c4cd049d/Report%20-%20Impossible%20Powders%20Project%20-%20Dr%20Ayour%2002052026.pdf" target="_blank">{t("science.learnMore")}</a>
             </Button>
           </Reveal>
         </div>
